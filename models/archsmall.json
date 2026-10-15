@@ -1,0 +1,6 @@
+{
+ "arm": "archsmall",
+ "data": "dataset_arch_small",
+ "model": "yolo11s-cls.pt",
+ "top1": 0.9945412874221802
+}

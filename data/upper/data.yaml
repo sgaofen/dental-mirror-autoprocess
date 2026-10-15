@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [16, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+nc: 1
+names: ['upper_teeth']
+
+roboflow:
+  workspace: teeth-identification-fnmg5
+  project: upper-occlusal-llo3w
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/teeth-identification-fnmg5/upper-occlusal-llo3w/dataset/1
